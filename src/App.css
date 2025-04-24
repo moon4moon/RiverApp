@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.all {
+  justify-items: center;
+  background-color: darkgray;
+  height: 100vh;
+}
+
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 20vw;
+  height: 100vh;
+  border: black solid 3px;
+  padding: 10px
+}
+
+.content {
+  margin-left: 20vw;
+  display: flex;
+  min-height: 100vh;
+}
+
+.container {
+  border: black solid 3px;
+  padding: 10px;
+  width: 45vw;
+}
+
+.rightbar {
+  border: black solid 3px;
+  width: 25vw;
+  padding: 10px;
+}
