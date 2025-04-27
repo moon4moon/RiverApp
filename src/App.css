@@ -6,7 +6,6 @@
 .all {
   justify-items: center;
   background-color: darkgray;
-  height: 100vh;
 }
 
 .navbar {
@@ -25,14 +24,31 @@
   min-height: 100vh;
 }
 
+.pageTitle {
+  height: 60px;
+}
+
 .container {
   border: black solid 3px;
   padding: 10px;
   width: 45vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  height: auto;
+  margin: 10px;
+  flex: 1;
 }
 
 .rightbar {
   border: black solid 3px;
   width: 25vw;
   padding: 10px;
+}
+
+.footerBar {
+  height: 30px;
 }

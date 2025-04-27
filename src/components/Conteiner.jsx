@@ -16,8 +16,8 @@ function Container({selectedValue}){
                 : selectedValue == "StationInfo" ? <StationInfo /> : `Wybrałeś: ${selectedValue}`}
             </div>
 
-            <div className="footer">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, ex.</p>
+            <div className="footerBar">
+                <p>FOOTER</p>
             </div>
         </div>
     )
