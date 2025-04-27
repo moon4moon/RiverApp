@@ -21,6 +21,12 @@ function RiverInfo() {
                                 <td>Podział</td>
                                 <td>Status</td>
                             </tr>
+                            <tr>
+                                <td>Budyń</td>
+                                <td>Zły</td>
+                                <td>Na trzy</td>
+                                <td>Okropny</td>
+                            </tr>
                         </table>
                     </div>
                 </div>

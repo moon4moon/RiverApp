@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
 
-function NavBar() {
+function NavBar({onChange}) {
+
     return <nav className="navbar">
         <div className="logo">
             <img src="" alt="Logo Image" />
@@ -8,20 +8,84 @@ function NavBar() {
         </div>
         
         <div className="riversList">
+            
+                <input 
+                    type="radio" 
+                    name="navBar" 
+                    value="Home"
+                    onChange={onChange}
+                    id="" />Strona główna
 
-            <ul>
-                <h3>Lista rzek:</h3>
-                <li><a href="">Rzeka1</a></li>
-                <li><a href="">Rzeka2</a></li>
-                <li><a href="">Rzeka3</a></li>
-                <li><a href="">Rzeka4</a></li>
-                <li><a href="">Rzeka5</a></li>
+            <fieldset>
+                <label>Rzeki:</label><br />
 
-                <li><a href="">Stacje</a></li>
-                <li><a href="">Prognoza stanu wody</a></li>
-                <li><a href="">Prognoza pogody</a></li>
-                <li><a href="">Informacje o nas</a></li>
-            </ul>
+                <input 
+                    type="radio" 
+                    name="navBar" 
+                    value="Rzeka1"
+                    onChange={onChange}
+                    id="" />Rzeka1
+                <br />
+                <input 
+                    type="radio" 
+                    name="navBar" 
+                    value="Rzeka2"
+                    onChange={onChange} 
+                    id="" />Rzeka2
+                <br />
+                <input 
+                    type="radio" 
+                    name="navBar" 
+                    value="Rzeka3"
+                    onChange={onChange} 
+                    id="" />Rzeka3
+                <br />
+                <input 
+                    type="radio" 
+                    name="navBar" 
+                    value="Rzeka4"
+                    onChange={onChange} 
+                    id="" />Rzeka4
+                <br />
+                <input 
+                    type="radio" 
+                    name="navBar" 
+                    value="Rzeka5"
+                    onChange={onChange} 
+                    id="" />Rzeka5
+            </fieldset>
+
+            <fieldset>
+                <label>Inne:</label><br />
+
+                <input 
+                    type="radio" 
+                    name="navBar" 
+                    value="StationInfo"
+                    onChange={onChange} 
+                    id="" />Stacje
+                <br />
+                <input 
+                    type="radio" 
+                    name="navBar" 
+                    value="tak"
+                    onChange={onChange} 
+                    id="" />Prognoza stanu wody
+                <br />
+                <input 
+                    type="radio" 
+                    name="navBar" 
+                    value="Prognoza pogody"
+                    onChange={onChange} 
+                    id="" />Prognoza pogody
+                <br />
+                <input 
+                    type="radio" 
+                    name="navBar" 
+                    value="AboutUs"
+                    onChange={onChange} 
+                    id="" />Informacje o nas
+            </fieldset>
         </div>
     </nav>
 }
