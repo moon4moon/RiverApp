@@ -14,7 +14,7 @@ function NavBar({onChange}) {
                     name="navBar" 
                     value="Home"
                     onChange={onChange}
-                    id="" />Strona główna
+                    className="radioButton" />Strona główna
 
             <fieldset>
                 <label>Rzeki:</label><br />
@@ -22,37 +22,37 @@ function NavBar({onChange}) {
                 <input 
                     type="radio" 
                     name="navBar" 
-                    value="Rzeka1"
+                    value="RiverInfo"
                     onChange={onChange}
-                    id="" />Rzeka1
+                    className="radioButton" />Rzeka1
                 <br />
                 <input 
                     type="radio" 
                     name="navBar" 
-                    value="Rzeka2"
+                    value="RiverInfo"
                     onChange={onChange} 
-                    id="" />Rzeka2
+                    className="radioButton" />Rzeka2
                 <br />
                 <input 
                     type="radio" 
                     name="navBar" 
-                    value="Rzeka3"
+                    value="RiverInfo"
                     onChange={onChange} 
-                    id="" />Rzeka3
+                    className="radioButton" />Rzeka3
                 <br />
                 <input 
                     type="radio" 
                     name="navBar" 
-                    value="Rzeka4"
+                    value="RiverInfo"
                     onChange={onChange} 
-                    id="" />Rzeka4
+                    className="radioButton" />Rzeka4
                 <br />
                 <input 
                     type="radio" 
                     name="navBar" 
-                    value="Rzeka5"
+                    value="RiverInfo"
                     onChange={onChange} 
-                    id="" />Rzeka5
+                    className="radioButton" />Rzeka5
             </fieldset>
 
             <fieldset>
@@ -63,28 +63,28 @@ function NavBar({onChange}) {
                     name="navBar" 
                     value="StationInfo"
                     onChange={onChange} 
-                    id="" />Stacje
+                    className="radioButton" />Stacje
                 <br />
                 <input 
                     type="radio" 
                     name="navBar" 
                     value="tak"
                     onChange={onChange} 
-                    id="" />Prognoza stanu wody
+                    className="radioButton" />Prognoza stanu wody
                 <br />
                 <input 
                     type="radio" 
                     name="navBar" 
                     value="Prognoza pogody"
                     onChange={onChange} 
-                    id="" />Prognoza pogody
+                    className="radioButton" />Prognoza pogody
                 <br />
                 <input 
                     type="radio" 
                     name="navBar" 
                     value="AboutUs"
                     onChange={onChange} 
-                    id="" />Informacje o nas
+                    className="radioButton" />Informacje o nas
             </fieldset>
         </div>
     </nav>

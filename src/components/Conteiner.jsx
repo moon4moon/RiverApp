@@ -1,6 +1,7 @@
 import AboutUs from "./AboutUs"
 import RiverInfo from "./RiverInfo"
 import StationInfo from "./StationInfo"
+import Home from "./Home"
 
 function Container({selectedValue}){
 
@@ -11,7 +12,8 @@ function Container({selectedValue}){
             </div>
 
             <div className="center">
-                {selectedValue == "AboutUs" ? <AboutUs /> 
+                {selectedValue == "Home" ? <Home />
+                : selectedValue == "AboutUs" ? <AboutUs /> 
                 : selectedValue == "RiverInfo" ? <RiverInfo />
                 : selectedValue == "StationInfo" ? <StationInfo /> : `Wybrałeś: ${selectedValue}`}
             </div>
